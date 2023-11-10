@@ -1,8 +1,8 @@
 # Zad1
 
-wiek = int(input("Podaj swój wiek "))
+wiek = int(input("Podaj swój wiek w latach "))
 if wiek < 4:
-    print("Wstęp darmowy")
+    print("Wstęp darmowy.")
 elif wiek > 18:
     print("Bilet kosztuje 20zł.")
 else:
