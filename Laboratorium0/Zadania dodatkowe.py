@@ -3,7 +3,7 @@
 a = int(input("Podaj wspólczynnik a "))
 b = int(input("Podaj współczynnik b "))
 wynik = -a/b
-print(f"Wynik równania 0=ax+b to x={-a/b}")
+print(f"Wynik równania 0=ax+b to x={wynik}")
 
 # Zad2
 
@@ -18,8 +18,11 @@ print(f"Pole trójkąta o bokach {a, b, c} wynosi ", P)
 
 x = float(input("Podaj pierwszą liczbę "))
 y = float(input("Podaj drugą liczbę "))
-
-print(f"Wynik dodawania to {x+y}")
-print(f"Wynik odejmowania to {x-y}")
-print(f"Wynik mnożenia to {x*y}")
-print(f"Wynik dzielenia to {x/y}")
+dodawanie = x+y
+print(f"Wynik dodawania to {dodawanie}")
+odejmowanie = x-y
+print(f"Wynik odejmowania to {odejmowanie}")
+mnozenie = x*y
+print(f"Wynik mnożenia to {mnozenie}")
+dzielenie = x/y
+print(f"Wynik dzielenia to {dzielenie}")

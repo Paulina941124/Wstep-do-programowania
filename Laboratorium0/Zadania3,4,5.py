@@ -37,12 +37,12 @@ szerokosc = int(input("Podaj szerokość prostokąta "))
 obwod_prostokata = 2*dlugosc+2*szerokosc
 print("Obwód prostokąta wynosi ", obwod_prostokata)
 pole_prostokata = dlugosc*szerokosc
-print(f"Pole prostokąta wynosi {dlugosc*szerokosc}")
+print(f"Pole prostokąta wynosi {pole_prostokata}")
 
 cena_paliwa = 6.5
 droga = float(input("Ile przejechałeś kilometrów ?"))
 spalanie = float(input("Jakie jest spalanie Twojego samochodu? "))
 zuzycie_paliwa = droga*spalanie/100
-print(f"Zużycie wynosi {droga*spalanie/100}")
+print(f"Zużycie wynosi {zuzycie_paliwa}")
 koszty_podrozy = cena_paliwa*zuzycie_paliwa
 print("Koszty podróży wyniosą ", koszty_podrozy, "zł")
