@@ -11,12 +11,12 @@ mnozenie = x*y
 dzielenie = x/y
 
 if dzialanie == 1:
-    print(dodawanie)
+    print(f"Wynik to {dodawanie}.")
 elif dzialanie == 2:
-    print(odejmowanie)
+    print(f"Wynik to {odejmowanie}.")
 elif dzialanie == 3:
-    print(mnozenie)
+    print(f"Wynik to {mnozenie}.")
 elif dzialanie == 4:
-    print(dzielenie)
+    print(f"Wynik to {dzielenie}.")
 else:
     print("To nie jest numer żadnej operacji.")
