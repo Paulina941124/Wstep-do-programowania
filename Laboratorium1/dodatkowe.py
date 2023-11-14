@@ -12,7 +12,7 @@ elif x1 < 0:
 
 # b)
 x2 = int(input("Podaj dowolny argument dla funkcji b(x)"))
-if x2 >=1:
+if x2 >= 1:
     b1 = x2**2
     print(f"Wartość funkcji dla tego argumentu to {b1}")
 elif x2 < 1:
