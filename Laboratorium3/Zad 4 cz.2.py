@@ -50,4 +50,11 @@ print("Zbiory po zmianach:")
 print(f"X= {X}")
 print(f"Y= {Y}")
 # m)
+Y.update(X.copy())
+print("Zbiór Y po dodaniu elementów X: ", Y)
+# n)
+print("Zbiory po usunięciu elementów.")
+print("Zbiór X ", X.clear())
+print("Zbiór Y ", Y.clear())
 
+# skonczone
