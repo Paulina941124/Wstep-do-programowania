@@ -9,3 +9,4 @@ while True:
         break
 
 print("Podane cyfry:", lista)
+# not ready

@@ -7,3 +7,5 @@ print(zdanie1)
 # Zad3 (wykorzystuje zdanie z zad2)
 
 print(zdanie.title())
+
+# not ready
