@@ -20,4 +20,3 @@ print(tekst1[1::3])
 print(tekst1[10:])
 # e)
 print(tekst1[::-1])
-

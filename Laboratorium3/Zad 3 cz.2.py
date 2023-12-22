@@ -14,6 +14,3 @@ if srednia < 350.88:
     print("Zacznij oszczędzać!")
 else:
     print("Jesteś bezpieczny.")
-
-
-#skonczone

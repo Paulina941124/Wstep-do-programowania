@@ -28,5 +28,3 @@ polowa_drugiego = len(zdanie2)//2
 polaczone_zdanie = zdanie1[:polowa_pierwszego] + zdanie2[polowa_drugiego:]
 
 print(polaczone_zdanie)
-
-#skonczone

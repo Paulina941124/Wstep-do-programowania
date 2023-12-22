@@ -56,5 +56,3 @@ print("Zbiór Y po dodaniu elementów X: ", Y)
 print("Zbiory po usunięciu elementów.")
 print("Zbiór X ", X.clear())
 print("Zbiór Y ", Y.clear())
-
-# skonczone

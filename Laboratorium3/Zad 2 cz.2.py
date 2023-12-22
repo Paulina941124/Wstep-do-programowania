@@ -5,4 +5,4 @@ suma = sum(slownik.values())
 
 print(f"Suma wydatków to {suma}")
 
-#skonczone
+
