@@ -8,5 +8,5 @@ def potega(a, n):
         return a * potega(a, n - 1)
 
 
-wynik = potega(6, 2)
+wynik = potega(5, 3)
 print(f"a^n to {wynik}")

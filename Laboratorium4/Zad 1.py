@@ -5,4 +5,4 @@ def pole_kola(r):
         print("Promień musi być większy od 0")
 
 
-pole_kola(6)
+pole_kola(23)
