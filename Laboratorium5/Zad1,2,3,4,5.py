@@ -5,6 +5,7 @@ import math
 import cmath
 import keyword
 import datetime
+import time
 
 a = random.randint(1, 11)
 print(f"Szczęśliwy numerek to {a}")
@@ -29,6 +30,17 @@ print(math.pow(125, 1/3))
 
 # Zad 3
 
+import time
+
+def sekundnik(czas):
+    while czas > 0:
+        print(f"Pozostało {czas} sekund")
+        time.sleep(1)
+        czas -= 1
+    print("Koniec!")
+czas_odliczania = int(input("Podaj czas odliczania w sekundach: "))
+sekundnik(czas_odliczania)
+
 
 
 #Zad 4
@@ -41,6 +53,7 @@ print(f"Data ostatnich zajęć to {data_ost_zaj}")
 data_kolosa = date(2024, 2, 11)
 print(f"Data kolokwium to {data_kolosa}")
 czas_od_zajec = data_dzisiejsza - data_ost_zaj
+
 print(f"Od ostatnich zajęć minęło: {czas_od_zajec}")
 czas_do_kol = data_kolosa - data_dzisiejsza
 print(f"Czas do kolokwium to {czas_do_kol}")
