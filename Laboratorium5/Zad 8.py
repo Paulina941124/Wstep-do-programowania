@@ -1,20 +1,20 @@
 import math
 
 def oblicz_pole_trojkata(bok_a, bok_b, kat_c):
-    # Sprawdzanie, czy trójkąt istnieje
+
     if bok_a + bok_b <= kat_c or bok_a + kat_c <= bok_b or bok_b + kat_c <= bok_a:
         print("Trójkąt o podanych bokach i kącie nie istnieje.")
         return None
 
-    # Konwersja kąta na radiany
+
     kat_c_rad = math.radians(kat_c)
 
-    # Obliczanie pola trójkąta
+
     pole = 0.5 * bok_a * bok_b * math.sin(kat_c_rad)
     return pole
 
 def czy_prostokatny(bok_a, bok_b, kat_c):
-    # Sprawdzanie warunku trójkąta prostokątnego
+
     if bok_a**2 + bok_b**2 == (bok_a + bok_b)**2:
         return True
     elif bok_a**2 + kat_c**2 == (bok_a + kat_c)**2:
@@ -33,7 +33,7 @@ if __name__ == "__main__":
         pole = oblicz_pole_trojkata(bok_a, bok_b, kat_c)
 
         if pole is not None:
-            print(f"Pole trójkąta wynosi: {pole:.2f} jednostek kwadratowych.")
+            print(f"Pole trójkąta wynosi: {pole:.2f}.")
 
             if czy_prostokatny(bok_a, bok_b, kat_c):
                 print("Trójkąt jest prostokątny.")
