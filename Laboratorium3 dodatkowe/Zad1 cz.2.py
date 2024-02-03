@@ -1,12 +1,19 @@
-lista = []
-while True:
-    cyfry_uzytk = input("Podaj 5 cyfr rozdzielonych przecinkiem: ")
-    cyfry = cyfry_uzytk.split(',')
-    if len(cyfry) != 5:
-        print("To nie 5 cyfr")
-    else:
-        lista = [int(cyfra) for cyfra in cyfry]
-        break
+import random
+liczby_uzyt = input("Podaj 5 liczb oddzielonych przecinkiem:")
+lista = list(map(int, liczby_uzyt.split(",")))
+print(lista)
 
-print("Podane cyfry:", lista)
-# not ready
+if len(lista) != 5:
+    print("Podano niewłaściwa ilosc elementow")
+else:
+    krotka = tuple(lista)
+    print(f"Utworzona krotka: {krotka}")
+    x = random.choice(krotka)
+    print(f"Wylosowany element to {x}")
+
+    if x == max(krotka):
+        print("To największy element krotki")
+    elif x == min(krotka):
+        print("To najmniejszy element krotki")
+    else:
+        print("Ten element nie jest ani najmniejszy, ani największy w krotce.")
